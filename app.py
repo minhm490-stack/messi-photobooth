@@ -97,9 +97,9 @@ if all(captured_list) and len(side_images) == 4:
         draw.ellipse([(sun_x - 14, sun_y - 14), (sun_x + 14, sun_y + 14)], fill=(246, 180, 14, 255), outline=gold_color,
                      width=2)
 
-        draw.text((sun_x, y_offset + 60), "Chúc bạn một ngày nhiều năng lượng", fill=gold_color, font=font_wish,
+        draw.text((sun_x, y_offset + 60), "PÉ NAAU NUMBER ONE", fill=gold_color, font=font_wish,
                   anchor="mm")
-        draw.text((sun_x, y_offset + 85), "và hoàn thành tốt mọi công việc! ❤️", fill=gold_color, font=font_wish,
+        draw.text((sun_x, y_offset + 85), "🌟 ⭐ 🌟", fill=gold_color, font=font_wish,
                   anchor="mm")
 
         final_output = Image.new("RGB", strip.size, (255, 255, 255))
