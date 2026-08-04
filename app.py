@@ -4,8 +4,8 @@ from PIL import Image, ImageDraw, ImageFont, ImageOps
 
 st.set_page_config(page_title="Messi Photobooth", layout="centered")
 
-st.title("⚽ Messi Photobooth - Chụp Trực Tiếp")
-st.write("Hãy dùng webcam chụp lần lượt **4 bức ảnh** để ghép vào dải Photostrip cùng Messi nhé!")
+st.title("💖 Pé Naau Photobooth - Chụp Trực Tiếp")
+st.write("Hãy dùng webcam chụp lần lượt **4 bức ảnh** để tạo dải Photostrip siêu dễ thương nhé!")
 
 current_dir = os.path.dirname(os.path.abspath(__file__))
 side_images = []
