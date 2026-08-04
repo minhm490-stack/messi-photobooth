@@ -2,7 +2,7 @@ import os
 import streamlit as st
 from PIL import Image, ImageDraw, ImageFont, ImageOps
 
-st.set_page_config(page_title="Messi Photobooth", layout="centered")
+st.set_page_config(page_title="Pé Naau Photobooth", layout="centered")
 
 st.title("💖 Pé Naau Photobooth - Chụp Trực Tiếp")
 st.write("Hãy dùng webcam chụp lần lượt **4 bức ảnh** để tạo dải Photostrip siêu dễ thương nhé!")
